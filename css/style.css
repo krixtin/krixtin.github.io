@@ -1,0 +1,40 @@
+body {
+	background-color: #c2feeb;
+	font-family: "courier new";
+}
+
+.imgheader {
+	margin: 20px;
+	width: 200px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	font-size: 170%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.header2 {
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text1 {
+	color: black;
+}
+
+.foot {
+	text-align: center;
+	font-weight: bold;
+	color: #e60073;
+}
+
+.inline-img {
+	display: inline-block;
+	margin: 10px;
+}
