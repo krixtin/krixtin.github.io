@@ -26,6 +26,8 @@ body {
 
 .text1 {
 	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .foot {
@@ -35,6 +37,34 @@ body {
 }
 
 .inline-img {
-	display: inline-block;
+	display: block;
 	margin: 10px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-link {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.footnote {
+	font-size: 12px;
+	float: right;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+	.inline-img {
+		display: inline-block;
+		float: left;
+		margin: 20px;
+	}
+	.text-div1 {
+		margin-right: 20px;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
 }
