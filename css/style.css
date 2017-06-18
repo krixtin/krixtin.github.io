@@ -1,6 +1,9 @@
 body {
-	background-color: #c2feeb;
 	font-family: "courier new";
+}
+
+.grad {
+	background: linear-gradient(to bottom right, #9bfdde, #99004d);
 }
 
 .imgheader {
