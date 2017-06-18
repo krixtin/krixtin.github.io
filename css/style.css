@@ -1,10 +1,20 @@
+html {
+    height: 100%;
+}
+
 body {
 	font-family: "courier new";
+	height: 100%;
+
 }
 
 .grad {
 	background: linear-gradient(to bottom right, #9bfdde, #99004d);
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 .imgheader {
 	margin: 20px;
@@ -53,6 +63,10 @@ body {
 	color: black;
 }
 
+.text-link:hover {
+	color: #660066;
+}
+
 .footnote {
 	font-size: 12px;
 	float: right;
@@ -77,4 +91,18 @@ body {
 	.text-div1 {
 		margin-bottom: 100px;
 	}
+}
+
+.inline-img2 {
+		width: 50px;
+		margin: 10px;
+		margin-right: 20px;
+		margin-top: 20px;
+		display: block;
+		float: left;
+}
+
+.text-div2 {
+		display: block;
+		margin: 20px;
 }
